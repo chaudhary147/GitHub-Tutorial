@@ -9,14 +9,14 @@ import java.util.Scanner;
 public class GreatestNumber {
 	public static void main(String []args) {
 		Scanner q=new Scanner(System.in);
-		System.out.println("Enter the number");
+		System.out.println("Enter the value of x");
 	              int x=q.nextInt();
 	 Scanner w=new Scanner(System.in);
-		 System.out.println("Enter the number");
+		 System.out.println("Enter the value of y");
 		 int y=w.nextInt();
 		 
 		 Scanner t=new Scanner(System.in);
-		 System.out.println("Enter the number");
+		 System.out.println("Enter the value of z");
 		 int z=t.nextInt();
 		 if(x>y || x>z) {
 			 System.out.println("X is the greatest integer.");
@@ -25,7 +25,7 @@ public class GreatestNumber {
 			 System.out.println("Y is the greatest integer.");
 			 
 		 }
-		 else if (z>x || z>y) {
+		 else  {
 			 System.out.println("Z is the greatest integer.");
 		 }
 		 
